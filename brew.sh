@@ -55,7 +55,7 @@ brew install tree
 
 # Install cask items
 brew cask install atom
-brew cask install iterm
+brew cask install iterm2
 
 # Remove outdated versions from the cellar.
 brew cleanup

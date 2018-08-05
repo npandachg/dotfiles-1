@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Updated to my aliases
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
