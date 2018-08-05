@@ -53,6 +53,10 @@ brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 
+# Install GNU coding compilers and stuff
+brew install gcc
+brew install make
+
 # Install cask items
 brew cask install atom
 brew cask install iterm2
