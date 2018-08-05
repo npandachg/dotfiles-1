@@ -1,0 +1,2 @@
+# add anaconda to path. Symlink this in your home dir (not admin)
+export PATH=/usr/local/anaconda3/bin:"$PATH"
