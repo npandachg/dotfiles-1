@@ -108,11 +108,11 @@ fi;
 # Set the terminal title and prompt.
 PS1="\[\033]0;\W\007\]"; # working directory base name
 PS1+="\[${bold}\]\n"; # newline
-PS1+="\[${userStyle}\]nishpan"; # username
+PS1+="\[${userStyle}\]nishpan"; # username \u
 PS1+="\[${white}\] at ";
-PS1+="\[${hostStyle}\]\h"; # host
+PS1+="\[${hostStyle}\]LANL"; # host use \h
 PS1+="\[${white}\] in ";
-PS1+="\[${green}\]\W"; # working directory relative path
+PS1+="\[${green}\]{\w}"; # working directory for relative path use \W
 PS1+="\$(prompt_git \"\[${white}\] on \[${violet}\]\" \"\[${blue}\]\")"; # Git repository details
 PS1+="\n";
 PS1+="\[${white}\]\$ \[${reset}\]"; # `$` (and reset color)
