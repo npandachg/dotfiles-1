@@ -56,6 +56,7 @@ brew install tree
 # Install cask items
 brew cask install atom
 brew cask install iterm2
+brew cask install anaconda
 
 # Remove outdated versions from the cellar.
 brew cleanup
