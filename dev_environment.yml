@@ -1,0 +1,14 @@
+name: dev_root
+
+dependencies:
+  - python
+  - numpy
+  - numpy-base 
+  - scipy
+  - networkx
+  - scikit-learn
+  - hdf5
+  - h5py
+  - matplotlib
+  - pandas
+  - pip
